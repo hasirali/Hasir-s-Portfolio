@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #f92524;
-  --primary-color-dark: #e91a1a;
-  --secondary-color: #faf9fe;
+  --primary-color: #005B41;
+  --primary-color-dark: #003325;
+  --secondary-color: #F5F7F8;
   --text-dark: #0f172a;
   --text-light: #64748b;
   --white: #ffffff;
@@ -51,7 +51,7 @@ body {
   bottom: 0;
   width: 50px;
   height: 3px;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color---);
 }
 
 .section__description {

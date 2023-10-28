@@ -1,8 +1,6 @@
 import React from 'react'
 import ProjectItem from '../Components/ProjectItem'
-import Capture1 from '../assets/Capture1.png'
-import Capture2 from '../assets/Capture2.png'
-import Capture3 from '../assets/Capture3.png'
+
 import '../Styles/Project.css'
 import  { ProjectList } from '../Helper/ProjectList'
 

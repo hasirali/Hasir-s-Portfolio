@@ -1,6 +1,6 @@
 import React from 'react'
 import banner from '../assets/profile.png'
-import '../styles/Hero.css'
+import '../styles/Home.css'
 
 function Home() {
   return (

@@ -4,7 +4,8 @@ import ReorderIcon from '@material-ui/icons/Reorder'
 import { useLocation } from 'react-router-dom';
 import { Link, NavLink } from 'react-router-dom'
 import '../styles/Navbar.css'
-import Education from '../Pages/Education';
+
+
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
 
@@ -16,12 +17,12 @@ function Navbar() {
     setNavOpen(false);
   };
 
-  const [extendNavbar, setExtendNavbar] = useState(false);
-  const location = useLocation();
+  // const [extendNavbar, setExtendNavbar] = useState(false);
+  // const location = useLocation();
 
-  useEffect(() => {
-    setExtendNavbar(false)
-  }, [location])
+  // useEffect(() => {
+  //   setExtendNavbar(false)
+  // }, [location])
 
   const email = 'hasira84@gmail.com'; 
   const handleHireClick = () => {
@@ -37,9 +38,10 @@ function Navbar() {
         </div>
         <div className="nav__header">
           <div className="nav__logo">
-            <a href="#">
+          <Link to={'/'}>
               <img src={logo} alt="logo" />Hasir Ali
-            </a>
+          </Link>
+            
           </div>
           <div className="nav__menu__btn" id="menu-btn" onClick={toggleNav}>
             <span>
@@ -60,7 +62,7 @@ function Navbar() {
           </a>
 
           <li className="link">
-            <a href="#skills">About</a>
+          <Link to={'/About'} > About </Link>
           </li>
 
           <li className="link">
@@ -68,7 +70,11 @@ function Navbar() {
           </li>
 
           <li className="link">
-            <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
+          </li>
+
+          <li className="link">
+          <Link to={'/Contact'} > Contact </Link>
           </li>
 
           {/* <li className="link">

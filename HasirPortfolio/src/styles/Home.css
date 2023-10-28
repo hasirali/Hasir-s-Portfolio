@@ -26,5 +26,5 @@
   }
 
   .header__btn button:hover {
-    background-color: #DF0030;
+    background-color:(--primary-color) ;
   } */
