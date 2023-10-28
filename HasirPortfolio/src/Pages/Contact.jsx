@@ -16,10 +16,13 @@ export default function About() {
         <label>Email:</label>
         <input type="email" placeholder="Your Email" />
       </div>
+
       <div className="input-group">
         <label>Message:</label>
-        <textarea placeholder="Your Message"></textarea>
+
+        <textarea rows="5" cols="40" placeholder="Your Message"></textarea>
       </div>
+      
       <button className="submit-button">Submit</button>
     </div>
     </>
