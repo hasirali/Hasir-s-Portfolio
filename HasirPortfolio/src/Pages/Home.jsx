@@ -13,7 +13,7 @@ function Home() {
         <h4>Documenting my growth, skills, and passion </h4>
         <h1 class="section__header">through my personal Portfolio.</h1>
         <p>
-          Hasir Ali is a video Editor, videographer and a skilled Programmer in C/C++, web development and had a clean grip on DSA. He is also an content creator on Instagram with a 30k+ of followers. He is currently persuing his under graduation in Information Technology from United college of engineering and research. 
+        Hello and welcome to my Portfolio!! I am Hasir Ali, a student pursuing an undergraduate degree in Information Technology at the United College of Engineering and Research. I have skills in video editing using Adobe Premiere Pro, programming in C/C++, web development and proficiency in Git and GitHub for version control. I also have a strong grasp of Data Structures and Algorithms, and I'm a content creator with over 30,000 followers on Instagram. Join me on my journey through the world of technology and content creation. 
         </p>
         <div class="header__btn  ">
           <button class="btn"><a href="https://drive.google.com/file/d/1lFwzCKVcGcM2BbRFmkxQ9DPKpYu50F3P/view?usp=drive_link" class="btn">My Resume</a></button>
